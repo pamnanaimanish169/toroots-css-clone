@@ -114,6 +114,15 @@ table {
       padding-right: 20px;
   }
 
+  .card > select {
+    border: solid #EF4647 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 45px;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+
   .search_button {
     background-color: #EF4647; 
     color: white; 
