@@ -1,0 +1,25 @@
+body {
+    width: 1349px;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('./home-banner.jpg');
+    background-size: cover;
+    border: solid blue 2px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-bar {
+    position: fixed;
+    border: solid black 2px;
+    height: 10%;
+    width: 100%;
+}
