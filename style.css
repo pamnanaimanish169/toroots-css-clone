@@ -52,7 +52,6 @@ body {
 
 /* Heading */
 .banner_text {
-    border: solid brown 4px;
     display: inline-block;
     position: absolute;
     left:100px;
