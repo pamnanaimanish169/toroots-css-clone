@@ -26,13 +26,22 @@ body {
     border: solid black 2px;
     height: 20%;
     width: 100%;
+    position: relative;
 }
 
-.nav-bar > button {
+.banner_button  {
     border: solid green 4px;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+
+.banner_button > button {
     color: white;
     background-color: transparent;
+    border: none;
     font-size: medium;
+    margin-right: 50px;
 }
 
 .nav-bar > img {
