@@ -150,7 +150,7 @@ table {
 
   /* FOr Mobile devices like smartphones,etc */
   @media only screen and (max-width:667px) {
-      .banner {
-        background: url('./home-banner.jpg') ;
+      body {
+          width: 100vw;
       }
   }
