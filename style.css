@@ -134,3 +134,10 @@ table {
     left: 200px;
   }
   /* Card Design END */
+
+  /* FOr Mobile devices like smartphones,etc */
+  @media only screen and (max-width:768px) {
+    .banner_text > h1{
+        width: 100%;
+    }
+  }
