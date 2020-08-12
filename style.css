@@ -145,10 +145,10 @@ table {
     border: none; 
     width: 40%; 
     height: 50px;
-    display: block;
+    display: inline-block;
     border-radius: 50px;
     position: relative;
-    left: 200px;
+    left: 60%;
   }
   /* Card Design END */
 
