@@ -153,4 +153,19 @@ table {
       body {
           width: 100vw;
       }
+
+      /* Remove the Horizontal scroll of banner START */
+
+      .banner_text {
+          padding: 0;
+      }
+
+      .banner_text-left {
+          padding-left: 0;
+      }
+
+      .banner_text-left > h1 {
+          font-size: 1rem;
+      }
+      /* Remove the Horizontal scroll of banner END */
   }
