@@ -24,9 +24,8 @@ body {
 }
 
 .banner_button  {
-    position: absolute;
-    right: 100px;
-    top: 40px;
+    float: right;
+    margin-top: 3%;
 }
 
 .banner_button > button {
@@ -38,8 +37,8 @@ body {
 }
 
 .nav-bar > img {
-    margin-left: 70px;
-    margin-top: 30px;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 
 .banner_button > button:hover {
@@ -168,4 +167,16 @@ table {
           font-size: 1rem;
       }
       /* Remove the Horizontal scroll of banner END */
+
+      .nav-bar {
+          width: 100vw;
+      }
+
+      .register_button {
+          display: none;
+      }
+
+      .banner_label {
+          display: none
+      }
   }
