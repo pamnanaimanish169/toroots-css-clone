@@ -10,14 +10,10 @@ body {
 }
 
 .banner {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: url('./home-banner.jpg');
+    background: url('./home-banner.jpg') no-repeat;
     background-size: cover;
-    display: inline-block;
+    position: relative;
     height: 100%;
-    width: 100%;
 }
 
 .nav-bar {
@@ -154,4 +150,7 @@ table {
 
   /* FOr Mobile devices like smartphones,etc */
   @media only screen and (max-width:667px) {
+      .banner {
+        background: url('./home-banner.jpg') ;
+      }
   }
