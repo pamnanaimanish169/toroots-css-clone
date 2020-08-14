@@ -160,16 +160,22 @@ table {
       }
 
       .banner_text-left {
-          padding-left: 0;
+          padding-left: 5%;
+          width: 70%;
       }
 
       .banner_text-left > h1 {
-          font-size: 1rem;
+          font-size: 1.5rem;
       }
+
+      .banner_text-left > span {
+        font-size: 1.5rem;
+    }
       /* Remove the Horizontal scroll of banner END */
 
       .nav-bar {
           width: 100vw;
+          height: 10%;
       }
 
       .register_button {
