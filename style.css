@@ -229,6 +229,55 @@ table {
 }
    /* Why Frotels Reverse END */
 
+   /* Video Section START */
+   .video {
+       height: 100%;
+   }
+
+   .video > .video__background {
+       border: solid blue 2px;
+       background: url('hotelhour-bg.jpg');
+       height: 100%;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 100%;
+   }
+
+   .video__background > h1 {
+       margin-top: 10%;
+       margin-left: 7%;
+       background-color: #EF4647;
+       display: inline-block;
+       padding: 10px;
+       border-radius: 10px;
+       color: white;
+   }
+
+   .video__background > p {
+    margin-left: 7%;
+    background-color: #EF4647;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 60%;
+}
+
+.video__play_video {
+    height: 20%;
+    width: 20%;
+    float: right;
+    margin-right: 10%;
+    margin-top: -3%;
+}
+
+.video__play_video :hover {
+    margin: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+   /* Video Section END */
+
   /* FOr Mobile devices like smartphones,etc */
   @media only screen and (max-width:667px) {
       body {

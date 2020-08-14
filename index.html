@@ -113,6 +113,7 @@
     </div>
     <!-- Multiple Cities Section END -->
 
+    <!-- Why Frotels START -->
     <div class="why_frotels">
         <div class="why_frotels__heading">
             Why Frotels?
@@ -137,5 +138,28 @@
             </div>
         </div>
     </div>
+    <!-- Why Frotels END -->
+
+    <!-- Video START -->
+    <div class="video">
+        <div class="video__background">
+            <h1>Hotels by the hour</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <div class="video__play_video">
+                <button style="background: transparent; border: none" onclick="openIframe()"><img src="video-play.png" alt="" ></button>
+                <iframe id="video_frame" src="http://www.youtube.com/embed/W7qWa52k-nE" width="560" height="315" frameborder="0" allowfullscreen style="display: none;"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Video END -->
 </body>
 </html>
+
+<script>
+    function openIframe() {
+        console.log( document.getElementById('video_frame') )
+        let video_frame = document.getElementById('video_frame');
+        video_frame.style.display = 'block'
+    }
+</script>
