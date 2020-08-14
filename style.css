@@ -103,9 +103,9 @@ body {
     padding: 16px;
     border-radius: 10px;
     background-color: #ffffff;
-    position: absolute;
-    right: 50px;
     color: #EF4647;
+    display: block;
+    width: 320%;
 }
 
 table {
@@ -184,5 +184,10 @@ table {
 
       .banner_label {
           display: none
+      }
+
+      .card {
+          margin-top: 40%;
+          margin-left: 10%;
       }
   }
