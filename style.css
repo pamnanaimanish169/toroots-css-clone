@@ -147,6 +147,50 @@ table {
   }
   /* Card Design END */
 
+  /* Multiple Cities Section START */
+  .multiple_cities {
+      height: 100%;
+  }
+
+  .background {
+      background: url('multiple_cities.png');
+      display: inline-block;
+      padding: 2%;
+      z-index: -1;
+  }
+
+  .heading {
+      display: inline-block;
+      margin-left: 9%;
+      margin-top:4%;
+      font-size: xx-large;
+  }
+
+  .heading > hr {
+      margin: 0;
+      width: 40%;
+      height: 5px;
+      background-color: #EF4647;
+      border: none;
+  }
+
+  .buttons_section {
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+
+  .buttons_section > ul > li {
+      background-color: white;
+      border: solid grey 1px;
+      border-radius: 30px;
+      display: inline-block;
+      font-size: medium;
+      margin-right: 7px;
+      text-align: center;
+      padding: 8px;
+  }
+  /* Multiple Cities Section END */
+
   /* FOr Mobile devices like smartphones,etc */
   @media only screen and (max-width:667px) {
       body {
@@ -172,6 +216,9 @@ table {
         font-size: 1.5rem;
     }
       /* Remove the Horizontal scroll of banner END */
+      .banner {
+          height: 120%
+      }
 
       .nav-bar {
           width: 100vw;
