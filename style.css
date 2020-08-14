@@ -204,7 +204,17 @@ table {
     background-color: #EF4647;
     border: none;
   }
-  /* Why Frotels END */
+
+  .why_frotels__text {
+      float: right;
+      width: 30%;
+      padding-right: 5%;
+  }
+
+  .why_frotels__section > img {
+      padding-left: 10%;
+  }
+   /* Why Frotels END */
 
   /* FOr Mobile devices like smartphones,etc */
   @media only screen and (max-width:667px) {
