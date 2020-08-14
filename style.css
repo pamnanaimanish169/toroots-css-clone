@@ -216,6 +216,19 @@ table {
   }
    /* Why Frotels END */
 
+   /* Why Frotels Reverse START */
+.why_frotels__text_2 {
+    float: left;
+    width: 30%;
+    padding-left: 10%;
+}
+
+.why_frotels__section_2 > img {
+    padding-left: 10%;
+    float: right;
+}
+   /* Why Frotels Reverse END */
+
   /* FOr Mobile devices like smartphones,etc */
   @media only screen and (max-width:667px) {
       body {
