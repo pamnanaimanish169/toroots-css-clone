@@ -149,7 +149,6 @@ table {
 
   /* Multiple Cities Section START */
   .multiple_cities {
-      height: 100%;
   }
 
   .background {
@@ -190,6 +189,22 @@ table {
       padding: 8px;
   }
   /* Multiple Cities Section END */
+
+  /* Why Frotels START */
+  .why_frotels__heading {
+      width: 30%;
+      padding-left: 35%;
+      text-align: center;
+      font-size: xx-large;
+  }
+
+  .why_frotels__heading > hr {
+    width: 40%;
+    height: 5px;
+    background-color: #EF4647;
+    border: none;
+  }
+  /* Why Frotels END */
 
   /* FOr Mobile devices like smartphones,etc */
   @media only screen and (max-width:667px) {
