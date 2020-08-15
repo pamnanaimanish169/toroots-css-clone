@@ -498,7 +498,6 @@ footer  {
       }
 
       .footer_content > p {
-          border: solid blue 4px;
           width: 90vw;
           font-size: 1.09rem;
           margin-left: 2vw;
