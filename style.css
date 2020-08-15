@@ -443,7 +443,7 @@ footer  {
   /* FOr Mobile devices like smartphones,etc */
   @media only screen and (max-width:667px) {
       body {
-          width: 100vw;
+          width: 100%;
       }
 
       /* Remove the Horizontal scroll of banner START */
@@ -486,4 +486,130 @@ footer  {
           margin-top: 40%;
           margin-left: 10%;
       }
+
+      .video__play_video {
+          float: none;
+      }
+
+      /* Footer START */
+      .footer {
+          width: 100vw;
+          height: 100%;
+      }
+
+      .footer_content > p {
+          border: solid blue 4px;
+          width: 90vw;
+          font-size: 1.09rem;
+          margin-left: 2vw;
+      }
+
+      .footer_content {
+          margin-left: 0;
+      }
+
+      .about_renok {
+          position: static;
+          margin-left: 2vw;
+          font-size: x-small;
+      }
+
+      .about_renok>ul>li {
+          padding-bottom: 2px;
+      }
+
+      .partnerships {
+        position: static;
+        margin-left: 70vw;
+        margin-top: -30vw;
+        font-size: x-small;
+      }
+
+      .partnerships>ul>li {
+          padding-bottom: 2px;
+      }
+
+      .terms_of_use {
+        position: static;
+        margin-left: 2vw;
+        font-size: x-small;
+      }
+
+      .terms_of_use>ul>li {
+          padding-bottom: 2px;
+      }
+
+      .ask_renok_button {
+        position: static;
+        margin-left: 2vw;
+        font-size: x-small;
+      }
+
+      .address {
+        position: static;
+        margin-left: 2vw;
+        font-size: x-small;
+      }
+      /* Footer END */
+
+      /* Frotels in Multiple Cities START */
+      .buttons_section > ul > li {
+          font-size: xx-small;  
+      }
+
+      .buttons_section > ul {
+        padding-inline-start: 0;  
+    }
+
+    .why_frotels__section > img {
+        padding-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .why_frotels__text {
+        width: 100vw;
+        padding-right: 0;
+    }
+
+    .why_frotels__section_2 > img {
+        padding-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .why_frotels__text_2 {
+        width: 100vw;
+        padding-left: 0;   
+        float: right;
+    }
+      /* Frotels in Multiple Cities END */
+
+      /* Video START */
+      .video > .video__background {
+        background-size: auto
+    }
+
+    .video__background > p {
+        width: 80%;
+    }
+
+    #myBtn > img {
+        margin: 50%;
+    }
+
+    .modal {
+        height: 80%;
+    }
+
+    .modal-content {
+        height: auto;
+        padding-top: 0;
+        margin-top: 35%;
+    }
+
+    #video_frame {
+        height: auto;   
+    }
+      /* Video END */
   }
