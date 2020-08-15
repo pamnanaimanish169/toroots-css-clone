@@ -322,6 +322,124 @@ table {
    }
    /* Modal CSS END */
 
+   /* Footer START */
+   .footer {
+       background-color: #171717;
+       border-radius: 30px 30px 0px 0px;
+       display: inline-block;
+       font-size: 0.9rem;
+       color: #333333;
+   }
+
+   footer {
+    background-color: #00ACB2;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+footer  {
+    display: inline-block;
+    /* z-index: -1; */
+    padding: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.footer_content {
+    padding-top: 50px;
+    display: inline-block;
+    width: 20%;
+    margin-left: 50px;
+}
+
+.about_renok {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+.partnerships {
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+.terms_of_use {
+    position: absolute;
+    top: 50px;
+    left: 900px;
+}
+.ask_renok_button {
+    position: absolute;
+    top: 50px;
+    left: 1100px;
+}
+.address {
+    position: absolute;
+    top: 120px;
+    left: 1100px;
+}
+
+/* TO remove the indentation */
+.about_renok>ul{
+    padding-inline-start: 0;
+}
+
+.about_renok>ul>li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.about_renok>ul>li:hover {
+    text-decoration: underline;
+}
+
+.partnerships>ul>li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+/* TO remove the indentation */
+.partnerships>ul{
+    padding-inline-start: 0;
+}
+
+.partnerships>ul>li:hover {
+    text-decoration: underline;
+}
+
+.terms_of_use>ul>li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+/* TO remove the indentation */
+.terms_of_use>ul{
+    padding-inline-start: 0;
+}
+
+.terms_of_use>ul>li:hover {
+    text-decoration: underline;
+}
+
+.ask_renok_button {
+}
+
+.ask_renok_button > button {
+    border: solid white ;
+    border-radius: 4px;
+    background: transparent;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.ask_renok_button > button:hover {
+    background-color: white;
+    color: #00ACB2;
+    text-decoration: underline
+}
+   /* FOoter END */
+
   /* FOr Mobile devices like smartphones,etc */
   @media only screen and (max-width:667px) {
       body {
