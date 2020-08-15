@@ -147,9 +147,16 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
             <div class="video__play_video">
-                <button style="background: transparent; border: none" onclick="openIframe()"><img src="video-play.png" alt="" ></button>
-                <iframe id="video_frame" src="http://www.youtube.com/embed/W7qWa52k-nE" width="560" height="315" frameborder="0" allowfullscreen style="display: none;"></iframe>
+                <button id='myBtn' style="background: transparent; border: none" onclick="openIframe()"><img src="video-play.png" alt="" ></button>
             </div>
+            <!-- Modal -->
+            <div id="myModal" class="modal" style="display:none;">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <iframe id="video_frame" src="http://www.youtube.com/embed/JxhBJSJRyqg?rel=0&autoplay=0"  frameborder="0" allowfullscreen style="display: none;"></iframe>
+                </div>
+            </div>
+  
         </div>
     </div>
     <!-- Video END -->
@@ -157,9 +164,26 @@
 </html>
 
 <script>
+    let modal = document.getElementById('myModal');
+    let btn = document.getElementById('myBtn')
+    let video_frame = document.getElementById('video_frame');
+
+    let span = document.getElementsByClassName("close")
+    let body = document.getElementsByTagName('body')
+
+    window.onclick = function() {
+        if (event.target.className == 'modal') {
+            modal.style.display = "none";
+        }
+    }
     function openIframe() {
-        console.log( document.getElementById('video_frame') )
-        let video_frame = document.getElementById('video_frame');
-        video_frame.style.display = 'block'
+        body[0].style.overflow = "hidden"
+        video_frame.style.display = "block"
+        modal.style.display = "block"
+    }
+
+    function closeModal() {
+        video_frame.style.display = "none";
+        modal.style.display = "none"
     }
 </script>
