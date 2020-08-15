@@ -235,7 +235,6 @@ table {
    }
 
    .video > .video__background {
-       border: solid blue 2px;
        background: url('hotelhour-bg.jpg');
        height: 100%;
        background-position: center;
